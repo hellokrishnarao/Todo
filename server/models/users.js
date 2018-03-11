@@ -10,15 +10,15 @@ var Users = mongoose.model('Users', {
 });
 
 
-var newUser = new Users({
-	email: 'krisna@gmail.com',
+// var newUser = new Users({
+// 	email: 'krisna@gmail.com',
 	
-});
+// });
 
-newUser.save().then((doc)=>{
-	console.log(doc)
-}, (e)=>{
-console.log('Unable to add user')
-})
+// newUser.save().then((doc)=>{
+// 	console.log(doc)
+// }, (e)=>{
+// console.log('Unable to add user')
+// })
 
 module.exports = {Users};

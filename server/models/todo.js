@@ -16,15 +16,15 @@ var Todo = mongoose.model('Todo', {
 	}	
 });
 
-var newTodo = new Todo({
-	text: 'node js',
-	completed: true
-});
+// var newTodo = new Todo({
+// 	text: 'node js',
+// 	completed: true
+// });
 
-newTodo.save().then((doc)=>{
-	console.log(doc)
-}, (e)=>{
-console.log('Unable to add todo')
-})
+// newTodo.save().then((doc)=>{
+// 	console.log(doc)
+// }, (e)=>{
+// console.log('Unable to add todo')
+// })
 
 module.exports = {Todo};
